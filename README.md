@@ -30,7 +30,6 @@ src/
 
 - **Method**: Dynamic Programming with Bitmask
 - **Complexity**: O(n²2ⁿ)
-- **Best for**: Small to medium graphs (n ≤ 15)
 
 ## 📝 Usage
 
