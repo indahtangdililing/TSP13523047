@@ -59,7 +59,6 @@ class TSP
 
     optimal_cost = solve(1, initial_s_mask) 
 
-    puts "Optimal cost: #{optimal_cost}"
     path = reconstruct_path
     { cost: optimal_cost, path: path }
   end
@@ -77,7 +76,6 @@ class TSP
     end
     path << 1 
 
-    puts "Optimal path: #{path.join(' -> ')}"
     path
   end
 end

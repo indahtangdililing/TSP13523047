@@ -20,7 +20,6 @@ class TSPApp
     graph = InputHandler.get_input_from_user
     return unless InputHandler.validate_graph(graph)
     
-    puts "\n=== Menyelesaikan TSP ==="
     solve_tsp(graph)
   end
 
