@@ -46,7 +46,6 @@ Rute optimal: 1 -> 2 -> 4 -> 3 -> 1
 
 - **Method**: Dynamic Programming with Bitmask
 - **Complexity**: O(n²2ⁿ)
-- **Best for**: Small to medium graphs (n ≤ 15)
 
 ## 📝 Usage
 
